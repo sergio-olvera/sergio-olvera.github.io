@@ -484,7 +484,7 @@
 		}
 		
 			.box.style2 {
-				padding: 3.5em 2.5em 3.5em 2.5em;
+				padding: 2em 2.5em 2em 2.5em;
 			}
 
 	/* Main */
@@ -562,7 +562,7 @@
 			}
 
 			.main.style2.right .content {
-				left: 65%;
+				left: 50%;
 			}
 
 			.main.style2.inactive {
@@ -712,23 +712,29 @@
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 				}
+	
+	blockquote {
+		border-left-color: #39454b;
+	}
 
 /*********************************************************************************/
-/* Intro                                                                         */
+/* Home                                                                         */
 /*********************************************************************************/
 
-	#intro {
+	#home {
 		background: url('images/no-image.png'), url('../images/dark-desk.jpg'), url('../images/intro.jpg');
 		background-size: 256px 256px, cover, cover;
 		background-attachment: fixed, fixed, fixed;
 		background-position: top left, bottom center, bottom center;
 		background-repeat: repeat, no-repeat, no-repeat;
 	}
-	#intro div header {
+	#home div header {
 		text-shadow: 0px 0px 20px #000000;
 	}
-	#intro div p {
-		text-shadow: 6px 0px 10px #000000;
+	#home div p {
+		font-size: 20px;
+		/*font-weight: 600;*/
+		text-shadow: 0px 0px 20px #000000;
 	}
 
 /*********************************************************************************/
