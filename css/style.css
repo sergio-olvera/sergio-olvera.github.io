@@ -783,10 +783,10 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay_.png'),url('../images/workspace.jpg'), url('../images/two.jpg');
-		background-size: 256px 256px, cover, cover;
-		background-attachment: fixed, fixed, fixed;
-		background-position: top left, center center, center center;
+		background: url('../images/workspace.jpg'), url('../images/two.jpg');
+		background-size: cover, cover;
+		background-attachment: fixed, fixed;
+		background-position: center center, center center;
 	}
 
 /*********************************************************************************/
