@@ -198,8 +198,9 @@
 		}
 
 			ul.default {
-				list-style: disc;
-				padding-left: 1em;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
 			}
 			
 				ul.default li {
@@ -476,9 +477,20 @@
 	/* Box */
 
 		.box {
-			background: #fff;
 			color: #39454b;
 			padding: 2em;
+			
+		}
+		.rounded {
+			border-radius: 15px 50px;
+		}
+
+		.transparent {
+			background-color: rgba(253, 252, 252,0.95);
+		}
+		
+		.shadow {
+			box-shadow: 5px 10px 18px #272727;
 		}
 		
 			.box.style2 {
@@ -740,11 +752,11 @@
 /*********************************************************************************/
 
 	#home {
-		background: url('images/no-image.png'), url('../images/dark-desk.jpg'), url('../images/intro.jpg');
-		background-size: 256px 256px, cover, cover;
-		background-attachment: fixed, fixed, fixed;
-		background-position: top left, bottom center, bottom center;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background: url('../images/dark-desk.jpg'), url('../images/intro.jpg');
+		background-size: cover, cover;
+		background-attachment: fixed, fixed;
+		background-position: bottom center, bottom center;
+		background-repeat: no-repeat, no-repeat;
 	}
 	#home div header {
 		text-shadow: 0px 0px 20px #000000;
@@ -760,10 +772,10 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('images/overlay.png'),url('../images/mac.jpg'), url('../images/one.jpg');
-		background-size: 256px 256px, cover, cover;
-		background-attachment: fixed, fixed, fixed;
-		background-position: top left, center center, center center;
+		background: url('../images/mac.jpg'), url('../images/one.jpg');
+		background-size: cover, cover;
+		background-attachment: fixed, fixed;
+		background-position: center center, center center;
 	}
 
 /*********************************************************************************/
@@ -771,7 +783,7 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay.png'),url('../images/mac-mouse-key.jpg'), url('../images/two.jpg');
+		background: url('images/overlay_.png'),url('../images/workspace.jpg'), url('../images/two.jpg');
 		background-size: 256px 256px, cover, cover;
 		background-attachment: fixed, fixed, fixed;
 		background-position: top left, center center, center center;
